@@ -1,0 +1,155 @@
+{
+  "_note": "Names and descriptions for the website menu. Same L IDs as the TV boards (BOARDS in ludwigs-assets/boards/v1/menu.html). PRICES DO NOT LIVE HERE: they come from the Command Center feed (Google Sheet). fallbackPrices is only a safety net for a visitor whose browser can't reach the feed; build.py refreshes nothing on its own, so update it when the Sheet changes a lot.",
+  "fallbackPrices": {
+    "L001": "$9.00", "L002": "$13.50", "L003": "$12.00",
+    "L004": "Small $1.50 / Large $2.50", "L005": "Small $1.50 / Large $2.50", "L006": "$4.00",
+    "L007": "Small $13.00 / Large $21.95",
+    "L040": "$13.00", "L041": "$14.00", "L042": "$13.00", "L043": "$11.00", "L044": "$14.00",
+    "L045": "$11.00", "L046": "$11.00", "L047": "$12.00", "L048": "$12.00", "L049": "$14.00",
+    "L050": "$13.00", "L051": "$12.00", "L052": "$14.00", "L053": "$14.00", "L054": "$13.00",
+    "L055": "$14.00", "L056": "$14.00", "L057": "$4.00",
+    "L060": "$13.95", "L061": "$2.00",
+    "L092": "$10.99", "L093": "$10.99", "L094": "$10.99", "L095": "$13.99"
+  },
+  "groups": [
+    {
+      "id": "pizza", "nav": "Pizza", "title": "Bake-at-Home Pizza",
+      "kicker": "Your oven. Our craftsmanship.",
+      "bake": "Bake at home: 425° for 8 to 12 minutes",
+      "sections": [
+        { "id": "build-your-own", "h": "Build Your Own", "cats": ["Build Your Own"],
+          "meta": "Three Cheese Pizza: white cheddar, mozzarella & parmesan",
+          "items": [
+            { "n": "Small 10″", "id": "L001" },
+            { "n": "Large 16″", "id": "L002" },
+            { "n": "Boardwalk Extra Thin 16″", "id": "L003" }
+          ] },
+        { "id": "toppings", "h": "Toppings", "type": "toppings", "priceId": "L004", "priceLabel": "Each topping",
+          "lists": [
+            ["Veggies & Cheeses", "Spinach, artichoke hearts, arugula, asiago, asparagus, black olives, blue cheese, broccoli, caramelized onions, feta, green olives, hot or sweet peppers, kalamata olives, mixed bell peppers, mushrooms, pineapple, plum tomatoes, ricotta, roasted garlic, roasted peppers, sundried tomatoes, red or sweet onions, portobello mushrooms, zucchini"],
+            ["Meat", "Crispy bacon, ground beef, ham, pepperoni, sausage"]
+          ] },
+        { "id": "crusts", "h": "Special Crusts", "cats": ["Special Crusts"], "meta": "Also for specialty pizzas",
+          "items": [
+            { "n": "Whole Grain", "id": "L005", "plus": true },
+            { "n": "Gluten Free", "id": "L006", "plus": true, "d": "Small only" }
+          ] },
+        { "id": "white-pizzas", "h": "White Pizzas", "cats": ["White Pizzas"], "sizes": "L007",
+          "meta": "Our blend of olive oil & garlic",
+          "items": [
+            { "n": "Mikinos Spinach", "id": "L010", "np": true, "d": "Spinach, roasted peppers, black olives, feta, pine nuts" },
+            { "n": "Mediterranean", "id": "L011", "np": true, "d": "Spinach, artichoke hearts, plum tomatoes, pine nuts, black olives, feta" },
+            { "n": "Veggie Lovers", "id": "L012", "np": true, "d": "Your choice of four fresh vegetables" },
+            { "n": "Spinach Quattro", "id": "L013", "np": true, "d": "Spinach, ricotta, plum tomatoes, pine nuts" },
+            { "n": "Heart’s Contents", "id": "L014", "np": true, "d": "Mushrooms, artichoke hearts, plum tomatoes, onions, pine nuts" },
+            { "n": "Primo Prosciutto", "id": "L015", "np": true, "d": "Prosciutto, fresh mozzarella, onions, sundried & plum tomatoes" },
+            { "n": "Clams Casino", "id": "L016", "np": true, "d": "Chopped clams, mixed bell peppers, crispy bacon" },
+            { "n": "Greek", "id": "L017", "np": true, "d": "Spinach, kalamata olives, plum tomatoes, feta" },
+            { "n": "Portobello Special", "id": "L018", "np": true, "d": "Portobello mushrooms, spinach, red onions, sundried tomatoes, feta" },
+            { "n": "Margherita", "id": "L019", "np": true, "d": "Fresh mozzarella, fresh basil, plum tomatoes. White or red sauce" },
+            { "n": "Nantucket Chicken", "id": "L020", "np": true, "d": "Roasted garlic, grilled chicken, red onion, cranberries, blue cheese" }
+          ] },
+        { "id": "red-pizzas", "h": "Red Pizzas", "cats": ["Red Pizzas"], "sizes": "L007",
+          "meta": "Our homemade tomato sauce",
+          "items": [
+            { "n": "Italian", "id": "L021", "np": true, "d": "Sausage, mixed bell peppers, roasted peppers, onions, plum tomatoes" },
+            { "n": "Bacon Burger", "id": "L022", "np": true, "d": "Ground beef, plum tomatoes, crispy bacon, extra cheddar" },
+            { "n": "Meat Lovers", "id": "L023", "np": true, "d": "Pepperoni, ground beef, sausage, crispy bacon" },
+            { "n": "Buffalo Chicken", "id": "L024", "np": true, "d": "Grilled chicken, hot wing sauce, celery, crumbled blue cheese" },
+            { "n": "Barbecue Chicken", "id": "L025", "np": true, "d": "Grilled chicken, red onions, crispy bacon, homemade sweet Vidalia BBQ sauce" },
+            { "n": "Hawaiian", "id": "L026", "np": true, "d": "Ham, pineapple, mixed bell peppers, pine nuts, plum tomatoes" },
+            { "n": "Chicken Fajita", "id": "L027", "np": true, "d": "Grilled chicken, red onions, mixed bell peppers, long hots, plum tomatoes" },
+            { "n": "Taco", "id": "L028", "np": true, "d": "Ground beef, onions, mixed bell & roasted peppers, black olives, plum tomatoes" },
+            { "n": "Roasted Pepperoni", "id": "L029", "np": true, "d": "Roasted pepperoni, pepperoni, mushrooms, red onion, sausage" }
+          ] },
+        { "id": "special-sauces", "h": "Special Sauces", "cats": ["Special Sauces"],
+          "items": [
+            { "n": "Spinach Pesto", "id": "L030", "np": true, "d": "Pesto sauce, spinach, grilled chicken, ricotta, sundried tomatoes" },
+            { "n": "Veggie Pesto", "id": "L031", "np": true }
+          ] }
+      ]
+    },
+    {
+      "id": "sandwiches", "nav": "Sandwiches", "title": "Sandwiches",
+      "kicker": "Made to order at the deli counter.",
+      "photo": "bh-sandwich-05",
+      "sections": [
+        { "id": "cold-sandwiches", "h": "Sandwiches", "cats": ["Sandwiches"],
+          "items": [
+            { "no": 1, "n": "The Classics", "id": "L040", "d": "Turkey, roast beef, ham, chicken or turkey salad. Cheese, lettuce, tomato, onion" },
+            { "no": 2, "n": "The Italian", "id": "L041", "d": "Peppered ham, Genoa salami, deluxe ham, soppressata, pepperoni, sharp provolone" },
+            { "no": 3, "n": "Sicilian Tuna", "id": "L042", "d": "Tuna salad, roasted peppers, sautéed spinach, sharp provolone" },
+            { "no": 4, "n": "Portobello Special", "id": "L043", "d": "Roasted peppers, fresh mozzarella, sautéed spinach, roasted red onion mayo", "add": "L057" },
+            { "no": 5, "n": "Primo Prosciutto", "id": "L044", "d": "Fresh mozzarella, roasted peppers, sprouts, basil pesto" },
+            { "no": 6, "n": "Avocado BLT", "id": "L045", "d": "Roasted garlic cilantro spread" },
+            { "no": 7, "n": "Calabrese", "id": "L046", "d": "Fresh mozzarella, tomato, fresh basil, leaf lettuce, sweet balsamic", "add": "L057" },
+            { "no": 8, "n": "House Roasted Turkey", "id": "L047", "d": "Baby Swiss, baby greens, tomato, cranberry relish" },
+            { "no": 9, "n": "The Tuscany", "id": "L048", "d": "Cucumber, feta, red onion, roasted peppers, spinach, hummus, pine nuts, pita", "add": "L057" },
+            { "no": 10, "n": "House Smoked Salmon", "id": "L049", "d": "Avocado, sprouts, lemon apricot spread" },
+            { "no": 11, "n": "Pastrami Special", "id": "L050", "d": "Baby Swiss, cole slaw, Russian dressing on rye" },
+            { "no": 12, "n": "Thai Chicken", "id": "L051", "d": "Shredded cabbage, snow peas, sprouts, pita" }
+          ] },
+        { "id": "hot-sandwiches", "h": "Hot Sandwiches", "cats": ["Hot Sandwiches"],
+          "items": [
+            { "no": 13, "n": "Four Cheese Meatball", "id": "L052", "d": "With our homemade tomato sauce" },
+            { "no": 14, "n": "The Hamchego", "id": "L053", "d": "Tavern ham, Manchego cheese, fig spread" },
+            { "no": 15, "n": "The Black Angus", "id": "L054", "d": "Au jus, horseradish cream, sharp provolone" },
+            { "no": 16, "n": "The Village Garden", "id": "L055", "d": "Grilled eggplant, sautéed spinach, roasted peppers, tomato, provolone, olive tapenade" },
+            { "no": 17, "n": "Abruzzi Chicken", "id": "L056", "d": "Italian chicken tenders, Abruzzi cheese, strawberry habanero jam" }
+          ],
+          "note": "Extras: roasted peppers, hot peppers, sweet peppers, pickles, cole slaw" }
+      ]
+    },
+    {
+      "id": "strombolis", "nav": "Strombolis", "title": "Strombolis",
+      "kicker": "Pre-made & frozen. All natural, no preservatives.",
+      "bake": "Bake from frozen: 475° for 35 to 40 minutes",
+      "sections": [
+        { "id": "stromboli-list", "h": "Any Stromboli", "type": "inline", "cats": ["Strombolis"], "priceId": "L060", "upId": "L061",
+          "groups": [
+            ["Meat", [
+              { "n": "Pepperoni", "id": "L062" }, { "n": "Cheesesteak", "id": "L063" },
+              { "n": "Chicken & Broccoli", "id": "L064", "up": true }, { "n": "Sausage, Onion & Pepper", "id": "L065" },
+              { "n": "Ham & Cheese", "id": "L066" }, { "n": "Meatball", "id": "L067" }, { "n": "Italian", "id": "L068" },
+              { "n": "Buffalo Chicken", "id": "L069" }, { "n": "Bacon & Egg", "id": "L070" }, { "n": "Ham & Egg", "id": "L071" },
+              { "n": "Whole Wheat Chicken & Broccoli", "id": "L072" }
+            ]],
+            ["Vegetable", [
+              { "n": "Mushroom, Onion & Pepper", "id": "L073" }, { "n": "Cheese & Sauce", "id": "L074" },
+              { "n": "Spinach & Cheese", "id": "L075" }, { "n": "Whole Wheat Spinach & Cheese", "id": "L076", "up": true },
+              { "n": "Veggie Sausage", "id": "L077", "up": true }, { "n": "Veggie Sausage & Vegan Cheese", "id": "L078", "up": true }
+            ]]
+          ] }
+      ]
+    },
+    {
+      "id": "dinners", "nav": "Italian Dinners", "title": "Italian Dinners",
+      "kicker": "Made by our in-house chefs. Available daily while supplies last.",
+      "photo": "entree-spread",
+      "sections": [
+        { "id": "italian-dinners", "h": "Italian Dinners", "cats": ["Italian Dinners"],
+          "items": [
+            { "n": "Italian Meatballs", "id": "L080", "np": true },
+            { "n": "Baked Ziti Parmesan", "id": "L081", "np": true },
+            { "n": "Eggplant Parmesan", "id": "L082", "np": true },
+            { "n": "Chicken Parmesan", "id": "L083", "np": true },
+            { "n": "Stuffed Pasta Shells", "id": "L084", "np": true },
+            { "n": "Cheese Tortellini", "id": "L085", "np": true, "d": "With pesto & grilled chicken" },
+            { "n": "Pasta & Meatballs", "id": "L086", "np": true },
+            { "n": "Beef Lasagna", "id": "L087", "np": true },
+            { "n": "Chicken Piccata", "id": "L088", "np": true },
+            { "n": "Chicken Saltimbocca", "id": "L089", "np": true },
+            { "n": "Chicken Florentine", "id": "L090", "np": true },
+            { "n": "Beef Bolognese", "id": "L091", "np": true }
+          ] },
+        { "id": "pasta-specialties", "h": "Pasta Specialties", "cats": ["Pasta Specialties"], "meta": "Talluto’s brand pasta",
+          "items": [
+            { "n": "Cheese Ravioli", "id": "L092" },
+            { "n": "Crepe Manicotti", "id": "L093" },
+            { "n": "Stuffed Shells", "id": "L094" },
+            { "n": "Italian Meatballs", "id": "L095" }
+          ] }
+      ]
+    }
+  ]
+}

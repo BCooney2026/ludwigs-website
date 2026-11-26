@@ -1,0 +1,143 @@
+{
+  "_note": "Every item and price from CateringMenu_2026.pdf (Ludwig's own site). Prices show cents. Two typos in the PDF are NOT published: the Medium serving size (\"15-12\") and Herb Grilled Chicken's full pan (\"@205\", shown here as $205.00). Confirm both with the store.",
+  "sections": [
+    { "id": "starters", "h": "Starters", "note": "Serving suggestions: Small 10-12, Large 25-30 guests.",
+      "items": [
+        { "n": "Domestic Cheese", "d": "Cheddar, Swiss, pepper jack, provolone & crackers", "p": "Small $60.00 · Medium $80.00 · Large $105.00" },
+        { "n": "International Cheese", "d": "Brie, Danish bleu, goat, Stilton, smoked Gouda, applewood cheddar, Piave, Primadonna. Includes fresh & dried fruit, nuts & crackers", "p": "Small (3) $65.00 · Medium (4) $85.00 · Large (5) $110.00" },
+        { "n": "Charcuterie", "d": "Assorted domestic & imported cheeses, meats, fresh & dried fruits, nuts, olives & crackers", "p": "$10.00 per person · 10 person minimum" },
+        { "n": "Cheese & Fruit", "d": "Cheddar, Swiss, pepper jack, provolone, seasonal fruit, berries & crackers", "p": "Small $65.00 · Medium $80.00 · Large $105.00" },
+        { "n": "Seasonal Fruit", "d": "Assorted melons, pineapple, berries & grapes", "p": "Small $65.00 · Medium $80.00 · Large $105.00" },
+        { "n": "Garden Vegetable", "d": "Assorted fresh vegetables, bleu cheese dip", "p": "Small $55.00 · Medium $70.00 · Large $90.00" },
+        { "n": "Roasted Vegetable", "d": "Asparagus, zucchini, squash, red onion, green beans, peppers, carrots & mushrooms with balsamic glaze", "p": "Small $80.00 · Medium $95.00 · Large $110.00" },
+        { "n": "Antipasti", "d": "Italian meats & cheeses, bruschetta, roasted peppers, stuffed peppers, olives, artichokes & sliced baguette", "p": "Small $85.00 · Medium $100.00 · Large $125.00" },
+        { "n": "Mediterranean", "d": "Hummus, olives, cucumber, feta, roasted peppers, Greek salad, stuffed grape leaves & toasted pita chips", "p": "Small $70.00 · Medium $90.00 · Large $110.00" },
+        { "n": "Poached Salmon", "d": "Herb cream cheese, cucumber caper relish & sliced baguette", "p": "Half side $110.00 · Full side $225.00" },
+        { "n": "Mini Lump Crab Cakes", "d": "House-made 1 oz lump crab cakes with lemon herb aioli & lemon wedges", "p": "$36.00 per dozen" },
+        { "n": "Cocktail Meatballs", "d": "Bourbon glazed, Swedish or marinara", "p": "$13.99 per lb" },
+        { "n": "The Baked Brie", "d": "Dried cranberries, pecans & fruit preserves in puff pastry. Oven ready, includes crackers", "p": "Small $45.00 · Large $75.00" },
+        { "n": "The Brie Bowl", "d": "Choice of lemon berry, apple caramel nut, or caramelized onion & bacon, with crackers", "p": "Small $45.00 · Large $85.00" },
+        { "n": "Spinach Artichoke or Buffalo Chicken Dip", "d": "Oven ready, includes crackers", "p": "One size $60.00" },
+        { "n": "Deviled Eggs", "d": "Traditional, bacon, or smoked salmon", "p": "Per dozen $17.00 · $20.00 · $27.00" }
+      ] },
+    { "id": "salads", "h": "Salads",
+      "items": [
+        { "n": "Garden", "d": "Mixed greens, cucumber, carrot & tomato. Choice of dressing", "p": "Small $45.00 · Medium $65.00 · Large $95.00" },
+        { "n": "Caesar", "d": "Romaine, parmesan cheese, croutons & tomato. Caesar dressing", "p": "Small $45.00 · Medium $65.00 · Large $95.00" },
+        { "n": "Nancy", "d": "Spring mix, bleu cheese, dried cranberries, candied walnuts & tomato. Balsamic vinaigrette", "p": "Small $60.00 · Medium $90.00 · Large $150.00" },
+        { "n": "Caprese", "d": "Spring mix, fresh mozzarella, roasted peppers & tomatoes. White balsamic vinaigrette", "p": "Small $60.00 · Medium $90.00 · Large $150.00" },
+        { "n": "Add Grilled Chicken to Any Salad", "p": "Small $30.00 · Medium $45.00 · Large $60.00" }
+      ] },
+    { "id": "soups", "h": "Soups",
+      "items": [
+        { "n": "Lobster Bisque", "p": "$13.99 per 24 oz" },
+        { "n": "Crab Bisque", "p": "$13.99 per 24 oz" },
+        { "n": "New England Clam Chowder", "p": "$13.99 per 24 oz" },
+        { "n": "Kennett Square Mushroom", "p": "$13.00 per 24 oz" },
+        { "n": "Beef Chili", "p": "$13.00 per 24 oz" },
+        { "n": "Chicken Noodle", "p": "$10.99 per 24 oz" }
+      ] },
+    { "id": "quiche", "h": "Quiche", "note": "Custom quiche available with 72 hour notice. All quiche available with a gluten free potato crust, add $2.00.",
+      "items": [
+        { "n": "Ham · Bacon & Onion · Spinach & Tomato · Tomato Basil · Asparagus · Broccoli · Portobello · Mushroom Onion Pepper · Sausage Onion Pepper · Four Cheese", "p": "$20.98 each" },
+        { "n": "Sun-Dried Tomato Basil · Garden Vegetable & Boursin", "p": "$21.98 each" },
+        { "n": "Gluten Free Spinach & Feta", "p": "$22.98 each" },
+        { "n": "Crab & Spinach · Crab & Asparagus", "p": "$26.98 each" }
+      ] },
+    { "id": "brunch", "h": "Brunch", "note": "Minimum 10 people.",
+      "items": [
+        { "n": "Package 1", "d": "Croissant French toast casserole, choice of 2 quiche, breakfast potatoes, bacon or sausage, fruit salad & orange juice", "p": "$20.00 per person" },
+        { "n": "Package 2", "d": "Breakfast casserole (4 cheese, meat lover’s or veggie), breakfast potatoes, bacon or sausage, fruit salad & orange juice", "p": "$20.00 per person" },
+        { "n": "Package 3", "d": "Yogurt, granola, fruit salad & orange juice", "p": "$12.00 per person" }
+      ] },
+    { "id": "sandwich-trays", "h": "Sandwich Trays & Deli",
+      "items": [
+        { "n": "Sandwich Tray", "d": "25 pieces, serves 10-12. Choose up to 2 breads: hoagie roll, French baguette, wrap pinwheels, croissant. Choose up to 3 flavors: ham & cheddar, turkey & Swiss, roast beef & provolone, Italian, chicken salad, chicken salad with grapes, turkey salad, tuna salad, egg salad, avocado BLT, chicken pesto & mozzarella, roasted turkey & brie, house smoked salmon, roasted vegetable & mozzarella, fresh vegetable & hummus, caprese. Sandwiches include lettuce, tomato & condiments unless otherwise specified", "p": "$75.00 per tray" },
+        { "n": "Pickle Tray", "d": "2 flavors pickle chips, hot peppers, sweet peppers & pickled red onion", "p": "Small $30.00 · Medium $50.00 · Large $70.00" },
+        { "n": "Wrap Tower", "d": "Assorted wrap halves, choice of flavors. Includes chips, pickles, hot & sweet peppers", "p": "20 halves $130.00" },
+        { "n": "Ludwig’s Boxed Lunch", "d": "Choice of sandwich or salad. Includes deli salad, fruit & chocolate chip cookie. Add water or soda $1.50 each. Minimum order 10 people", "p": "$17.00 each" },
+        { "n": "Deli Side Salads", "d": "Potato, macaroni, pasta, coleslaw, ranch pasta, caprese tortellini, broccoli, Greek orzo, Israeli couscous, broccoli apple, garbanzo, Greek village, citrus kale, Caesar kale, tomato cucumber, roasted peppers. Large quantities available, please allow 24 hours notice" }
+      ] },
+    { "id": "carving-board", "h": "Carving Board", "note": "Half pan serves 10-12 adults with 18 rolls. Full pan serves 20-24 adults with 30 rolls.",
+      "items": [
+        { "n": "Filet Mignon Platter", "d": "Cooked & sliced filet, caramelized onions, horseradish cream & rolls (12-14 people)", "p": "$250.00" },
+        { "n": "Hot Roast Pork or Beef", "d": "Provolone, horseradish cream, au jus & rolls", "p": "Half pan $115.00 · Full pan $225.00" },
+        { "n": "Sweet Italian Sausage", "d": "Peppers, onions, marinara, provolone & rolls", "p": "Half pan $115.00 · Full pan $195.00" },
+        { "n": "Meatballs", "d": "Provolone, marinara & rolls", "p": "Half pan $120.00 · Full pan $215.00" },
+        { "n": "BBQ Pulled Pork", "d": "Cheddar, BBQ sauce & rolls", "p": "Half pan $120.00 · Full pan $215.00" },
+        { "n": "Hot Roasted Turkey", "d": "Gravy & rolls", "p": "Half pan $125.00 · Full pan $225.00" },
+        { "n": "Pot Roast", "d": "Caramelized onion jam, crispy onions, smoked Gouda & rolls", "p": "Half pan $125.00 · Full pan $225.00" }
+      ] },
+    { "id": "entrees", "h": "Entrées & More", "note": "Half pan serves 10-12 adults · Full pan serves 20-24 adults. Prices shown half pan / full pan. Please inquire about gluten free options.",
+      "subs": [
+        ["Poultry", [
+          ["Chicken Parmesan", "$115.00 / $215.00"], ["Garlic Chicken with Sun-Dried Tomato Demi", "$115.00 / $215.00"],
+          ["Lemon Butter Chicken", "$115.00 / $215.00"], ["Chicken Marsala", "$120.00 / $220.00"],
+          ["Spinach & Artichoke Stuffed Chicken", "$115.00 / $215.00"], ["Chicken Piccata", "$115.00 / $215.00"],
+          ["Italian Breaded Chicken Tenders", "$90.00 / $180.00"], ["Chicken Bites (sweet chili, bourbon or Dijon)", "$115.00 / $215.00"],
+          ["Creamy Poblano Chicken", "$115.00 / $215.00"], ["Chicken Enchiladas with Salsa Verde", "$90.00 / $155.00"],
+          ["Herb Grilled Chicken (teriyaki, Caesar or BBQ)", "$115.00 / $205.00"],
+          ["Chicken Quesadilla Wedges with salsa & sour cream", "$45.00 per dozen wedges"]
+        ]],
+        ["Beef & Pork", [
+          ["Beef Tenderloin Marsala", "$150.00 / $285.00"], ["Pot Roast", "$115.00 / $205.00"],
+          ["Stuffed Pork Loin (spinach, peppers, provolone)", "$135.00 / $235.00"],
+          ["Pork Tenderloin with Apricot Grain Mustard", "$125.00 / $225.00"],
+          ["Breaded Pork Cutlet with Lemon Butter", "$125.00 / $225.00"]
+        ]],
+        ["Seafood", [
+          ["Spicy Jerk Salmon with Pineapple Salsa", "$140.00 / $250.00"], ["Asian Spiced Salmon with Teriyaki Glaze", "$140.00 / $250.00"],
+          ["Grilled Salmon Bites with Herb Cream Sauce", "$140.00 / $250.00"], ["House-Made Lump Crab Cakes", "$115.00 / $230.00"],
+          ["Bruschetta Shrimp", "$105.00 / $205.00"], ["Salmon Piccata", "$140.00 / $250.00"]
+        ]],
+        ["Pasta", [
+          ["Baked Ziti", "$65.00 / $125.00"], ["Stuffed Pasta Shells with Rosé Sauce", "$65.00 / $125.00"],
+          ["Beef Lasagna with Marinara", "$115.00 / $185.00"], ["Vegetable Lasagna with Alfredo", "$80.00 / $150.00"],
+          ["Baked Macaroni & Cheese", "$60.00 / $115.00"], ["Bacon Macaroni & Cheese", "$65.00 / $125.00"],
+          ["Crab or Lobster Macaroni & Cheese", "$105.00 / $185.00"], ["Pasta Primavera with Chicken", "$80.00 / $150.00"],
+          ["Pasta Primavera with Shrimp or Crab", "$120.00 / $220.00"], ["Penne Vodka", "$65.00 / $120.00"]
+        ]],
+        ["Vegetarian", [
+          ["Eggplant Parmesan", "$115.00 / $195.00"], ["Spinach & Ricotta Eggplant Stacks", "$90.00 / $170.00"],
+          ["Mushroom Lentil Shepherd’s Pie", "$110.00 / $210.00"], ["Garden Vegetable Pesto Pasta", "$60.00 / $115.00"],
+          ["Creamy Mushroom Tortellini", "$100.00 / $195.00"], ["Sun-Dried Tomato Pesto & Goat Cheese Tortellini", "$100.00 / $195.00"],
+          ["Quinoa Cashew Vegetable Stir Fry", "$100.00 / $195.00"]
+        ]],
+        ["Vegetables", [
+          ["Roasted Vegetable Medley", "$65.00 / $125.00"], ["Green Beans (garlic shallot or almandine)", "$65.00 / $125.00"],
+          ["Roasted Asparagus (garlic shallot or roasted pepper)", "$65.00 / $125.00"], ["Roasted Broccoli & Cauliflower", "$70.00 / $130.00"],
+          ["Roasted Zucchini & Squash", "$65.00 / $125.00"], ["Lemon Thyme Baked Carrots", "$65.00 / $125.00"],
+          ["Balsamic Button Mushrooms", "$65.00 / $125.00"]
+        ]],
+        ["Starch", [
+          ["Sour Cream & Chive Mashed Potatoes", "$65.00 / $120.00"], ["Scalloped Potatoes", "$65.00 / $120.00"],
+          ["Roasted Fingerling Potatoes", "$65.00 / $120.00"], ["Trio Roasted Potatoes (red, Idaho & sweet)", "$70.00 / $130.00"],
+          ["Rice (wild, brown or Spanish)", "$65.00 / $120.00"]
+        ]]
+      ] },
+    { "id": "desserts", "h": "Desserts",
+      "items": [
+        { "n": "Cookie Brownie", "p": "Small $65.00 · Medium $75.00 · Large $95.00" },
+        { "n": "Assorted Mini Cheesecakes", "p": "Small $75.00 · Medium $110.00 · Large $130.00" },
+        { "n": "Dessert Charcuterie", "p": "Small $70.00 · Medium $90.00 · Large $115.00" },
+        { "n": "Mini Cannoli", "p": "$42.00 per dozen" },
+        { "n": "Individual Crème Brûlée", "p": "$70.00 per dozen" },
+        { "n": "Mini Caramel Brownie Mousse Cups", "p": "$42.00 per dozen" }
+      ] },
+    { "id": "extras", "h": "Also Available",
+      "items": [
+        { "n": "Wire Chafer Sets", "p": "$22.00" },
+        { "n": "Disposables", "d": "Plate, napkin, fork, knife & cup", "p": "$2.00 per person" },
+        { "n": "Plastic Serving Utensils", "p": "$2.00 each" },
+        { "n": "Hot & Cold Delivery", "p": "Price depends on location & order size" },
+        { "n": "Full Service Catering", "p": "Please inquire" }
+      ] }
+  ],
+  "policies": [
+    "All prices subject to change.",
+    "Events booked with less than 24 hours notice are subject to a 15% service charge.",
+    "25% cash or check deposit required for all orders over $250.00.",
+    "Cancellation: the deposit is held if cancelling with less than 24 hours notice.",
+    "All card payments incur an additional 3.5% transaction fee."
+  ]
+}

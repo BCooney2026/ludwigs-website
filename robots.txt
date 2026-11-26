@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bcooney2026.github.io/ludwigs-website/sitemap.xml
