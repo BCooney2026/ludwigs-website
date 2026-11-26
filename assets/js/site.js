@@ -283,7 +283,12 @@
       if (HOLIDAYS.indexOf(today()) >= 0) { txt = "Holiday today. Call ahead for hours"; cls = ""; }
       else if (n.mins >= h[0] && n.mins < h[1]) { txt = "Open now · until " + fmt(h[1]); cls = "open"; }
       else if (n.mins < h[0]) { txt = "Closed · opens today at " + fmt(h[0]); cls = "closed"; }
-      else { var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]; var nx = days[(days.indexOf(n.day) + 1) % 7]; txt = "Closed · opens " + (nx === "Sun" ? "Sunday" : "tomorrow") + " at " + fmt(HOURS[nx][0]); cls = "closed"; }
+      else {
+        var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]; var nx = days[(days.indexOf(n.day) + 1) % 7];
+        var tmr = new Date(Date.now() + 864e5).toLocaleDateString("en-CA", { timeZone: TZ });
+        txt = HOLIDAYS.indexOf(tmr) >= 0 ? "Closed now · call for tomorrow’s holiday hours" : "Closed · opens " + (nx === "Sun" ? "Sunday" : "tomorrow") + " at " + fmt(HOURS[nx][0]);
+        cls = "closed";
+      }
       el.className = "openline " + cls;
       el.innerHTML = '<span class="dot"></span><span>' + txt + "</span>";
     });
