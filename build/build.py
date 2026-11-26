@@ -84,7 +84,7 @@ def header(r, active, home=False):
         return r + h
     nav = "".join(f'<a href="{href(h)}"{" aria-current=\"page\"" if active == n else ""}>{n}</a>' for n, h in NAV)
     drawer = "".join(f'<a class="big" href="{href(h)}">{n}</a>' for n, h in NAV)
-    return f'''<div class="announce" id="announce" role="status" data-default="Glenmoore, PA · Proudly serving Chester County since 1998">Glenmoore, PA · Proudly serving Chester County since 1998</div>
+    return f'''<div class="announce" id="announce" role="status" data-default="Proudly serving Chester County since 1998">Proudly serving Chester County since 1998</div>
 <header class="hdr">
   <div class="wrap">
     <a class="brand" href="{r if r != './' else './'}" aria-label="Ludwig’s Village Market home">
